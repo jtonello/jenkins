@@ -11,4 +11,9 @@ pipeline {
             }
         }
     }
+    post {
+        success {
+            echo "This was successful"
+        }
+    }
 }
