@@ -1,5 +1,5 @@
 FROM alpine:latest
 
-RUN apk add httpd
+RUN apk add apache2
 
 
